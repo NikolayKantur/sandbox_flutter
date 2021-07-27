@@ -11,6 +11,6 @@ jobs:
         with:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
           heroku_email: ${{ secrets.HEROKU_EMAIL }}
-          heroku_app_name: flutter-sandbox-${{ github.repository_owner }}
+          heroku_app_name: flutter-sandbox-nikolaykantur
           usedocker: true
           appdir: server
