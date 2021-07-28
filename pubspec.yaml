@@ -14,9 +14,19 @@ dependencies:
 
   cupertino_icons: ^1.0.2
 
+  flutter_webrtc: ^0.6.5
+  flutter_svg: ^0.22.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/end-call.svg
+    - assets/mic-off.svg
+    - assets/mic-on.svg
+    - assets/video-off.svg
+    - assets/video-on.svg
+    
